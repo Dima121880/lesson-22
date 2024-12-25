@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.userList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 5%;
+  gap: 30px;
+  padding: 0 20px;
+}
